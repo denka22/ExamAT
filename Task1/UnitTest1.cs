@@ -1,4 +1,4 @@
-using NUnit.Framework;
+Ôªøusing NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -44,7 +44,7 @@ namespace Task1
             var toshop = driver.FindElement(By.CssSelector("body > div.ReactModalPortal > div > div > div.jsx-385435685.general-modal__body-wrapper > div > div.jsx-2181983899.MapModal__bottomControls > div.jsx-2181983899.MapModal__getPositionMainButtonContainer > button"));
             toshop.Click();
             var searchField = driver.FindElement(By.XPath("/html/body/div[1]/header/div[1]/div[2]/div/div/div[2]/div/input"));
-            searchField.SendKeys("Ï‡Ì„Ó");
+            searchField.SendKeys("–º–∞–Ω–≥–æ");
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
             var mango = driver.FindElement(By.XPath("/html/body/div[1]/header/div[1]/div[2]/div/div/div[2]/div/div[4]/div/div/ul/li[1]/div/div[1]/a"));
             mango.Click();
